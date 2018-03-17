@@ -1,4 +1,7 @@
 /* See LICENSE for license details. */
+/* alpha */
+#define OPAQUE 0Xff
+#define USE_ARGB (alpha != OPAQUE && opt_embed == NULL)
 
 enum win_mode {
 	MODE_VISIBLE     = 1 << 0,
